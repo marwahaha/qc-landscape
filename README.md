@@ -10,11 +10,11 @@ There are several competing physical implementations of quantum computers. Super
 ## Firmware & Software
 Many companies are designing quantum programming languages to operate physical quantum computers. There are also open-source projects where one can construct quantum circuits and visualize expected outputs.
 
-## NISQ Algorithms
-The "Noisy Intermediate-Scale Quantum" machines of the 2020s require new algorithms to deal with errors and small circuit depths. The variational technique has become quite popular, switching between quantum computing and classical optimization. There are other approaches to use these algorithms to improve machine-learning techniques or approximate solutions to NP-hard problems. See work especially by Eddie Farhi and Aram Harrow.
+## Noisy Quantum Algorithms
+The "Noisy Intermediate-Scale Quantum" (NISQ) machines of the 2020s require new approaches to deal with errors and small circuit depths. The variational technique has become quite popular, alternating between quantum computing and classical optimization. Other algorithms improve machine-learning techniques and approximate solutions to NP-hard problems. There is a rich literature to design quantum error-correcting codes, inspired both by classical error correction and syndrome measurements. See work especially by Eddie Farhi and Aram Harrow.
 
-## Physical Applications
-There are many applications of quantum computing to physics and chemistry. Unknown parameters in Hamiltonians of common molecules can be estimated. Condensed matter systems of increasing size can be directly simulated. Other proposed applications solve matrix inversion problems, simulate quantum electrodynamics, and reconstruct theorized events in quantum gravity. See work especially by Garnet Chan and Birgitta Whaley.
+## Scientific Applications
+There are many applications of quantum computing to physics and chemistry. Unknown parameters in Hamiltonians of common molecules can be estimated. Condensed matter systems of increasing size can be directly simulated. Other proposed applications solve matrix inversion problems, simulate quantum electrodynamics, and reconstruct theorized events in quantum gravity. See work especially by Garnet Chan, Birgitta Whaley, Lin Lin, and Nathan Wiebe.
 
 ## Long-term Quantum Algorithms
 This area is focused on designing new algorithms suitable for large quantum computers. There are numerous ideas applying random walks in a quantum setting, which provide speedups depending on the graph symmetry. Some look at special types of quantum systems that avoid [the sign problem](https://en.wikipedia.org/wiki/Numerical_sign_problem). Others design generic protocols that transform any operator to any other based on its singular values. See work especially by Andrew Childs and András Gilyén.
